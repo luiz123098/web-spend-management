@@ -16,15 +16,15 @@ const HomeCard = () => {
       case "weekGraph":
         return <WeekSpendCard />
       default:
-        return (
-          <div className="columns is-desktop">
-            <div className="column is-one-quarter">
-              <CurrentBalanceCard />
-              <ExpensesActivitiesCard />
+        return (          
+          <div className="columns is-multiline is-desktop">
+            <div className="column is-full">
+              {/* <CurrentBalanceCard /> */}
+              <ExpensesActivitiesCard />  
             </div>
             <div className="column">
               <div className="columns is-multiline">
-                <div className="column is-half">
+                <div className="column is-two-thirds">
                   <div className="column">
                     
                   </div>
@@ -45,7 +45,7 @@ const HomeCard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="column is-half">
+                <div className="column">
                 <QuickActionsCard />
                 </div>
               </div>

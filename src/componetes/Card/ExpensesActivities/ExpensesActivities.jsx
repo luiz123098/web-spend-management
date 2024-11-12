@@ -57,7 +57,7 @@ const ExpensesActivitiesCard = () => {
           {Object.keys(groupedTransactions).map(date => (
             <div key={date}>
               <h2 className="title is-4">{date}</h2>
-              <table className="table is-narrow is-striped">
+              <table className="table is-fullwidth is-striped">
                 <thead>
                   <tr>
                     <th>Local</th>

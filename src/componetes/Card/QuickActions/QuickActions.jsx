@@ -8,7 +8,7 @@ const QuickActionsCard = () => {
                             <h1 className="title">Quick Actions</h1>
                         </div>
                         <div className="column is-narrow">
-                            <button className="button is-warning is-rounded">
+                            <button class="button is-warning is-rounded">
                                 <i className="fas fa-plus"></i>
                             </button>
                         </div>
